@@ -1,0 +1,5 @@
+recursive-include pretix_custom_css_js/static *
+recursive-include pretix_custom_css_js/templates *
+recursive-include pretix_custom_css_js/locale *
+include LICENSE
+exclude .gitlab-ci.yml
