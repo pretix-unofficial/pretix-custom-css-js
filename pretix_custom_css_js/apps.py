@@ -8,6 +8,7 @@ except ImportError:
 
 
 class PluginApp(PluginConfig):
+    default = True
     name = "pretix_custom_css_js"
     verbose_name = "Custom CSS and JS"
 
